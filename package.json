@@ -1,0 +1,14 @@
+{
+  "name": "webpack-academy-fun",
+  "version": "1.0.0.",
+  "main": "index.js",
+  "author": "Matt Jared",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
+}
