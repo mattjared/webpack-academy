@@ -8,7 +8,10 @@ module.exports = {
   },
   module: {
     rules: [
-
+      {
+        test: /\.jp?g$/,
+        use: ["file-loader"]
+      }
     ]
   }
 }
